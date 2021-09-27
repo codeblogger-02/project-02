@@ -1,7 +1,7 @@
 import express, { Router } from "express";
 
 //Database model 
-import { ImageModel } from "../Database/image";
+import {ImageModel} from "../../Database"
 
 
 //Routes
@@ -49,3 +49,6 @@ Router.get("/c/:category" , async(req,res) => {
         return res.json({error: error.message});
     }
 })
+
+
+export default Router;
