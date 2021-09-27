@@ -9,7 +9,7 @@ import helmet from "helmet";
 const wireframe = express();
 
 //microservice Routes
-import Image from "./API/image"
+
 
 //database connection 
 

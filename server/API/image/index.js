@@ -1,7 +1,7 @@
 import express, { Router } from "express";
 
 //Database model 
-import {ImageModel} from "../../Database"
+import {ImageModel} from "../../Database/Image"
 
 
 //Routes
