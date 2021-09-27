@@ -2,8 +2,9 @@ import  mongoose  from "mongoose";
 
 
 const ImageSchema = new mongoose.Schema({
- 
-  images:[{type:String, required:true}]
+  id:{ type: String , required:true },
+  images:[{type: String, required:true}],
+  category:{ type: String, required:true }
 },
 {
     timestamps:true,
