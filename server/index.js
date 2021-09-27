@@ -1,3 +1,7 @@
+//env variables
+require("dotenv").config();
+
+//libraries
 import express from "express";
 import cors from "cors";
 import helmet from "helmet";
